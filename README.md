@@ -1,7 +1,7 @@
 # require-from-es
 This module, **require-from-es**, makes *require*, *__dirname* and *__filename* work flawlessly in ES-modules.
 
-### So you finally made the switch to using ES modules in Node.js?
+## So you finally made the switch to using ES modules in Node.js?
 Congratulations!
 
 So you added the following in your **package.json** (or maybe a build tool like Vite added it...):
@@ -12,7 +12,7 @@ So you added the following in your **package.json** (or maybe a build tool like 
 and you are ready to start using **import** and **export** everywhere? That *IS* a good intent.
 
 
-### But what about:
+## But what about:
 * old legacy code (your own and npm modules) that only works with **require**?
 * or the convenience of requiring a json-file with **require('x.json')**?
 * or being able to read the absolute path of your file with **__filename**?
@@ -33,6 +33,8 @@ import 'require-from-es';
 ```
 
 Now you can use **require**, **__filename** and **__dirname** *anywhere* in your application. No need to include something extra in each file.
+
+## More info, less important
 
 
 ### Tested on Mac, Windows and Linux
