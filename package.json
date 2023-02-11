@@ -1,0 +1,28 @@
+{
+  "name": "require-from-es",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "This module, require-from-es, makes require, __dirname and __filename work flawlessly in ES-modules.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ironboy/require-from-es.git"
+  },
+  "author": "ironboy NodeHill",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "Node.js",
+    "es modules",
+    "es6 modules",
+    "ES modules",
+    "ES6 modules",
+    "require",
+    "__dirname",
+    "__filename"
+  ],
+  "bugs": {
+    "url": "https://github.com/ironboy/require-from-es/issues"
+  },
+  "homepage": "https://github.com/ironboy/require-from-es#readme"
+}
