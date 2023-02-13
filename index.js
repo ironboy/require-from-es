@@ -13,7 +13,9 @@ const cjsMemory = {};
 function getURL() {
   let { stack } = new Error();
   let file = stack
-    .replace(/(<anonymous> )\(/g, '$1(file:///')
+    .replace(/\(/g, '(file:///')
+    .split('file:///file:///').join('file:///')
+    .split('file:////').join('file:///')
     .split('file:///').slice(1).map(
       x => 'file:///' + x.split(/js:\d/)[0] + 'js'
     ).find(x => x !== import.meta.url);

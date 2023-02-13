@@ -9,7 +9,7 @@ So you added the following in your **package.json** (or maybe a build tool like 
 ```json
 "type" : "module"
 ```
-and you are ready to start using **import** and **export** everywhere? That *IS* a good intent.
+and you are ready to start using **import** and **export** everywhere? Those *ARE* good intentions.
 
 
 ## But what about:

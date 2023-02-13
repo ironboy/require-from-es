@@ -1,7 +1,7 @@
 {
   "name": "require-from-es",
   "type": "module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "This module, require-from-es, makes require, __dirname and __filename work flawlessly in ES-modules.",
   "main": "index.js",
   "repository": {
